@@ -1,11 +1,6 @@
 /**
  * @system event-bus
  * @status handwritten
- * @edit edit directly
- *
- * Typed in-process event bus factory. Follows the same pattern as
- * createCache, createRateLimiter, createWatchdog: name, auto-registration,
- * central visibility. Provides on/emit/off with wildcard ("*") support.
  */
 
 import type { EventBusEvent, EventBusHandler, EventBusPayload } from "./types.ts";

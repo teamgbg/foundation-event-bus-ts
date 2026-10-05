@@ -1,9 +1,6 @@
 /**
  * @system event-bus
  * @status handwritten
- * @edit edit directly
- *
- * Type definitions for the event bus primitive.
  */
 
 export type EventBusEvent = { type: string };
